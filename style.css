@@ -29,3 +29,34 @@ ul {
 li {
     margin-right: 16px;
 }
+
+/* intro */
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 40px 100px;
+    gap: 42px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#top-image {
+    height: 200px;
+}
+
+.top-sign-up {
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 0;
+}
