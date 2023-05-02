@@ -60,3 +60,16 @@ li {
     color: #E5E7EB;
     border: 0;
 }
+
+/* information */
+.information {
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 40px 100px;
+    gap: 42px;
+}
+
+.random-img {
+    height: 150px;
+    border-radius: 8px;
+}
