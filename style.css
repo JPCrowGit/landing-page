@@ -67,9 +67,23 @@ li {
     /* align-items: center; */
     padding: 40px 100px;
     gap: 42px;
+    background: white;
+}
+
+.horizontal-images {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .random-img {
     height: 150px;
     border-radius: 8px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
