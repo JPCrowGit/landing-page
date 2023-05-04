@@ -178,3 +178,13 @@ ul {
     color: #F9FAF8;
     border: 2px solid #F9FAF8;
 } 
+
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 12px 0px;
+}
