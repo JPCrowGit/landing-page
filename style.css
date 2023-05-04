@@ -142,19 +142,39 @@ ul {
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    padding: 40px 100px;
+    padding: 40px;
     gap: 10px;
     background: white;
 }
 
 .call-to-action-box {
     display: flex;
+    justify-content: space-around;
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 20px 80px;
-    gap: 0px 100px;
+    width: 70%;
+    padding: 30px 0px;
+    /* gap: 0px 100px; */
 }
 
 .call-to-action-text p {
     margin: 0;
+    color: #F9FAF8;
 }
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 700
+}
+
+.sign-up-instruction {
+    font-size: 16px;
+}
+
+.bottom-sign-up {
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+} 
